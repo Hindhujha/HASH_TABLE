@@ -36,6 +36,11 @@ namespace HashTable
             Console.WriteLine("10th index value is:" + hash10);
             string hash15 = hash.Get(3);
             Console.WriteLine("15th index value is:" + hash15);
+            //REMOVE A WORD IN A PARAGRAHP
+            hash.Remove(17);
+            string hash17 = hash.Get(17);
+            Console.WriteLine("17th index value is removed" + hash17);
+
 
 
         }

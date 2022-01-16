@@ -58,7 +58,7 @@ namespace HashTable
             linkedlist.AddLast(item);
         }
 
-      /*  public void Remove(K key)
+       public void Remove(K key)
         {
             int position = GetArrayPosition(key);
             LinkedList<KeyValue<K, V>> linkedlist = GetLinkedList(position);
@@ -77,7 +77,7 @@ namespace HashTable
                 linkedlist.Remove(founditem);
             }
 
-        }*/
+        }
 
        
 
